@@ -18,7 +18,7 @@ gradle, spring 최신버전, java11, jar,
 
 Spring을 gradle을 통해서 빌드하게 되면 좀 더 느리기 때문에 intelliJ로 바로 빌드하는 것이 좋다.
 
-![image-20220629143043075](../images/2022-06-29-javaSpring1/image-20220629143043075.png)
+![image-20220629143043075](./images/2022-06-29-javaSpring1/image-20220629143043075.png)
 
 build.gradle 파일 내부
 
@@ -50,7 +50,7 @@ tasks.named('test') {
 
 ### 비즈니스 요구사항 확인
 
-![image-20220629143625141](../images/2022-06-29-javaSpring1/image-20220629143625141-16565070633951.png)
+![image-20220629143625141](./images/2022-06-29-javaSpring1/image-20220629143625141-16565070633951.png)
 
 미확정된, 추후 변동 가능한 항목들은 지금 개발하기 어려운 부분
 
