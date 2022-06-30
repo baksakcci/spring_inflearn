@@ -2,7 +2,7 @@
 
 ![image-20220629143625141](images/2022-06-29-javaSpring_예제만들기1_프로젝트생성 및 비즈니스 요구사항 확인/image-20220629143625141.png)
 
-gradle, spring 최신버전, java11, jar,
+gradle, spring 최신버전, java11, jar
 
 기타 다른 라이브러리 의존관계를 다운받지 않아서 core와 boot만 있는 것을 볼 수 있다.
 
