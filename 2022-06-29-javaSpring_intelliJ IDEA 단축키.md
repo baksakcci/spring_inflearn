@@ -1,9 +1,3 @@
----
-layout: page
-title: "IntellJ IDEA 유용한 단축키"
-categories: javaSpring
----
-
 ## IntelliJ에서 단축키가 어떤 것이 있는지 검색하는 기능이다
 
 ![image-20220629164432491](./images/2022-06-29-javaSpring_intelliJIDEA%EB%8B%A8%EC%B6%95%ED%82%A4/image-20220629164432491.png)
