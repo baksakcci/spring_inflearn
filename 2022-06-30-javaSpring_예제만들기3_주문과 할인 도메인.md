@@ -1,8 +1,8 @@
 ## 주문과 할인 정책을 보고 협력관계를 파악한다
 
-![image-20220630154155500](images/2022-06-30-javaSpring_예제만들기3_주문과 할인 도메인/image-20220630154155500.png)
+![image-20220630154155500](https://user-images.githubusercontent.com/105288887/176652780-91ee7f01-f8d0-4877-94c2-bb07accf8dda.png)
 
-![image-20220630183440791](images/2022-06-30-javaSpring_예제만들기3_주문과 할인 도메인/image-20220630183440791.png)
+![image-20220630183440791](https://user-images.githubusercontent.com/105288887/176652693-a386b522-1fd5-4f58-811b-0ce387e8a59b.png)
 
 클라이언트가 주문을 했을 때 어떻게 흘러가는지까지 표시하였다.
 
@@ -10,19 +10,19 @@
 
 **실제 역할과 구현**
 
-![image-20220630183600903](images/2022-06-30-javaSpring_예제만들기3_주문과 할인 도메인/image-20220630183600903.png)
+![image-20220630183600903](https://user-images.githubusercontent.com/105288887/176652710-b2538dce-c7ad-42d1-a5ac-a543050a65ea.png)
 
 **실제 만들어지는 객체**
 
-![image-20220630183626726](images/2022-06-30-javaSpring_예제만들기3_주문과 할인 도메인/image-20220630183626726.png)
+![image-20220630183626726](https://user-images.githubusercontent.com/105288887/176652724-215869b6-16ad-4d7a-8a17-96440baf0b3e.png)
 
-![image-20220630183641405](images/2022-06-30-javaSpring_예제만들기3_주문과 할인 도메인/image-20220630183641405.png)
+![image-20220630183641405](https://user-images.githubusercontent.com/105288887/176652727-2a219368-ac57-47f8-924d-df5a0e883409.png)
 
 어떤 저장소를 사용할 것인지, 어떤 할인정책을 채택할 것인지에 따라 실제 동적으로 만들어지는 객체는 달라진다.
 
 ## 먼저 할인 정책과 관련된 역할과 구현체를 만들어보자
 
-![image-20220630170912550](images/2022-06-30-javaSpring_예제만들기3_주문과 할인 도메인/image-20220630170912550.png)
+![image-20220630170912550](https://user-images.githubusercontent.com/105288887/176652741-2b35836c-816f-4327-917d-8124c753aa22.png)
 
 discount라는 패키지를 따로 만들어서 그 안에 만들었다.
 
@@ -109,7 +109,7 @@ public class Order {
 
 ## 주문 서비스를 구현해보자
 
-![image-20220630174610819](images/2022-06-30-javaSpring_예제만들기3_주문과 할인 도메인/image-20220630174610819.png)
+![image-20220630174610819](https://user-images.githubusercontent.com/105288887/176652755-f09eafd1-8581-4a1c-b669-97e076be78b8.png)
 
 order라는 패키지 안에 order 엔티티, orderservice 인터페이스, orderServiceImpl 클래스를 구현하였다.
 
