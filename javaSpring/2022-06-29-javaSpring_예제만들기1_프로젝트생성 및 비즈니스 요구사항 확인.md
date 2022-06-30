@@ -4,7 +4,7 @@ title: "vanillaJava 1 프로젝트 생성 및 비즈니스 요구사항 확인"
 categories: javaSpring
 ---
 
-### start.spring.io를 이용해서 프로젝트를 생성하자
+## start.spring.io를 이용해서 프로젝트를 생성하자
 
 ![image-20220629143625141](/images/2022-06-29-javaSpring1/image-20220629143625141.png)
 
@@ -48,7 +48,7 @@ tasks.named('test') {
 }
 ```
 
-### 비즈니스 요구사항 확인
+## 비즈니스 요구사항을 확인해보자
 
 ![image-20220629143625141](/images/2022-06-29-javaSpring1/image-20220629143625141-16565070633951.png)
 
