@@ -1,6 +1,6 @@
 ## start.spring.io를 이용해서 프로젝트를 생성하자
 
-![image-20220629143625141](images/2022-06-29-javaSpring_예제만들기1_프로젝트생성 및 비즈니스 요구사항 확인/image-20220629143625141.png)
+![image-20220629143625141](./images/2022-06-29-javaSpring_예제만들기1_프로젝트생성 및 비즈니스 요구사항 확인/image-20220629143625141.png)
 
 gradle, spring 최신버전, java11, jar,
 
