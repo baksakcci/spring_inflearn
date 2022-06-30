@@ -1,11 +1,4 @@
----
-layout: page
-title: "vanillaJava 2 회원 도메인 설계"
-categories: javaSpring
----
-
-## 회원 도메인 요구사항을 보며 협력관계를 파악한다.
-
+## 회원 도메인 협력관계를 파악한다.
 ![image-20220629161657877](./images/2022-06-29-javaSpring_%EC%98%88%EC%A0%9C%EB%A7%8C%EB%93%A4%EA%B8%B02_%ED%9A%8C%EC%9B%90%EB%8F%84%EB%A9%94%EC%9D%B8%EC%84%A4%EA%B3%84%EB%B0%8F%EA%B0%9C%EB%B0%9C%EB%B0%8F%ED%85%8C%EC%8A%A4%ED%8A%B8/image-20220629161657877.png)
 
 요구사항을 보고 어떻게 설계할 것인지 구상 후 다이어그램을 그린다.
@@ -137,7 +130,7 @@ public class memberServiceImpl implements memberService {
 
 최종적으로 6개의 파일이 만들어졌다.
 
-![image-20220629174729198](../images/2022-06-29-javaSpring_%EC%98%88%EC%A0%9C%EB%A7%8C%EB%93%A4%EA%B8%B02_%ED%9A%8C%EC%9B%90%EB%8F%84%EB%A9%94%EC%9D%B8%EC%84%A4%EA%B3%84%EB%B0%8F%EA%B0%9C%EB%B0%9C%EB%B0%8F%ED%85%8C%EC%8A%A4%ED%8A%B8/image-20220629174729198.png)
+![image-20220629174729198](./images/2022-06-29-javaSpring_%EC%98%88%EC%A0%9C%EB%A7%8C%EB%93%A4%EA%B8%B02_%ED%9A%8C%EC%9B%90%EB%8F%84%EB%A9%94%EC%9D%B8%EC%84%A4%EA%B3%84%EB%B0%8F%EA%B0%9C%EB%B0%9C%EB%B0%8F%ED%85%8C%EC%8A%A4%ED%8A%B8/image-20220629174729198.png)
 
 이제 이들을 각각 테스트 해보자
 

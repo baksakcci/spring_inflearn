@@ -1,9 +1,3 @@
----
-layout: page
-title: "vanillaJava 1 프로젝트 생성 및 비즈니스 요구사항 확인"
-categories: javaSpring
----
-
 ## start.spring.io를 이용해서 프로젝트를 생성하자
 
 ![image-20220629143625141](images/2022-06-29-javaSpring_예제만들기1_프로젝트생성 및 비즈니스 요구사항 확인/image-20220629143625141.png)
@@ -20,7 +14,7 @@ Spring을 gradle을 통해서 빌드하게 되면 좀 더 느리기 때문에 in
 
 ![image-20220629143043075](images/2022-06-29-javaSpring_예제만들기1_프로젝트생성 및 비즈니스 요구사항 확인/image-20220629143043075.png)
 
-build.gradle 파일 내부
+**build.gradle 파일 내부**
 
 ```java
 plugins {
@@ -48,7 +42,7 @@ tasks.named('test') {
 }
 ```
 
-## 비즈니스 요구사항 확인
+## 비즈니스 요구사항을 확인해보자
 
 ![image-20220629144124202](images/2022-06-29-javaSpring_예제만들기1_프로젝트생성 및 비즈니스 요구사항 확인/image-20220629144124202.png)
 
