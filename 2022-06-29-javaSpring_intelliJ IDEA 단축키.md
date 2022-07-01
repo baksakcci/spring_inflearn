@@ -19,10 +19,22 @@ Alt+Insert 누르면 Generate 창이 나온다.
 Alt + Enter 누르면 어떻게 해결할 지 나온다.
 
 * 인터페이스 상속받을 때 구현 메서드들 적을 때 유용
+* 자동 import
 
 ## 코드 빌드, 실행 단축키
 
 Ctrl + Shift + F10
 
-## 자동 import 기능
+## 테스트 코드 작성 단축키
 
+테스트 하고싶은 메서드에다가
+
+Ctrl + shift + T
+
+![image-20220701162902867](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220701162902867.png)
+
+Test Class를 만들어준다.
+
+## 메서드가 어떤 경로에서 오는지 확인하는 단축키
+
+경로를 알고싶은 메서드에다가 Ctrl 누른 상태로 클릭
