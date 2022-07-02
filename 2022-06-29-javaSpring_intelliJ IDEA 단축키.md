@@ -31,7 +31,7 @@ Ctrl + Shift + F10
 
 Ctrl + shift + T
 
-![image-20220701162902867](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220701162902867.png)
+![image-20220701162902867](https://user-images.githubusercontent.com/105288887/176997091-a376d399-e184-4af9-a9f2-2c31a5d66372.png)
 
 Test Class를 만들어준다.
 
@@ -43,12 +43,12 @@ Test Class를 만들어준다.
 
 **메서드 추출 리팩토링**
 
-![image-20220702191108936](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220702191108936.png)
+![image-20220702191108936](https://user-images.githubusercontent.com/105288887/176997094-1bb487c6-ca31-4405-976e-ef2ae43902ae.png)
 
 추출하고 싶은 메서드를 드래그 해서
 
 Ctrl + Alt + M
 
-![image-20220702191236197](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220702191236197.png)
+![image-20220702191236197](https://user-images.githubusercontent.com/105288887/176997099-5e302902-e68f-4b9d-9d21-d1a69ca9b24b.png)
 
 리턴 타입과 이름을 정의한 후 리팩터링 하면 관련 메서드들 **한꺼번에 다 변경**
