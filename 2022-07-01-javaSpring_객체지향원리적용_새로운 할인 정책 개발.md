@@ -72,8 +72,7 @@ Fix -> Rate 끝.
 ```java
 private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
 ```
-
-![image-20220701171344495](images/2022-07-01-javaSpring_객체지향원리적용_새로운 할인 정책 개발/image-20220701171344495.png)
+![image-20220701171413238](https://user-images.githubusercontent.com/105288887/176981315-f6465b52-5f53-4a22-9850-cbd8e3ca1390.png)
 
 그림과 같이 구현체인 구체 클래스에도 함께 의존하고 있기 때문에
 
@@ -86,7 +85,7 @@ DIP 위반이다
 private final DiscountPolicy discountPolicy = new RateDiscountPolicy();
 ```
 
-![image-20220701171403370](images/2022-07-01-javaSpring_객체지향원리적용_새로운 할인 정책 개발/image-20220701171403370.png)
+![image-20220701171344495](https://user-images.githubusercontent.com/105288887/176981323-01ea670a-2475-4895-addd-5b176eca907c.png)
 
 위 코드는 클라이언트인 OrderServiceImpl이다.
 
@@ -104,11 +103,11 @@ private DiscountPolicy discountPolicy;
 
 근데 구현체가 없는데 어떻게 실행 가능할까?
 
-![image-20220701170527783](images/2022-07-01-javaSpring_객체지향원리적용_새로운 할인 정책 개발/image-20220701170527783.png)
+![image-20220701171403370](https://user-images.githubusercontent.com/105288887/176981324-a869a39a-2a00-4940-95b6-494fc3af07d4.png)
 
 당연히 오류 발생
 
-![image-20220701171413238](images/2022-07-01-javaSpring_객체지향원리적용_새로운 할인 정책 개발/image-20220701171413238.png)
+![image-20220701170527783](https://user-images.githubusercontent.com/105288887/176981325-956d8b2b-127e-462e-b903-8cf13224d116.png)
 
 이 문제를 해결하기 위해서는
 
