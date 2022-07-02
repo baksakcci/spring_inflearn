@@ -104,7 +104,7 @@ private DiscountPolicy discountPolicy;
 
 근데 구현체가 없는데 어떻게 실행 가능할까?
 
-![image-20220701170527783](./images/2022-07-01-javaSpring_객체지향원리적용_새로운 할인 정책 개발/image-20220701170527783.png)
+![image-20220701170527783](../images/2022-07-01-javaSpring_객체지향원리적용_새로운 할인 정책 개발/image-20220701170527783.png)
 
 당연히 오류 발생
 
