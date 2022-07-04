@@ -12,13 +12,13 @@ Inversion of Control
 
 `ServiceImpl`는 어떤 구현 객체가 실행되는지 모른다. 그저 묵묵히 실행만 할 뿐.
 
-![image-20220704171415712](images/2022-07-04-javaSpring_객체지향원리적용_IoC DI Containor/image-20220704171415712.png)
+![image-20220704171415712](images/2022-07-04-javaSpring_객체지향원리적용_IoC DI Container/image-20220704171415712.png)
 
 ## 프레임워크와 라이브러리의 차이
 
 **제어의 주체가 누구인가에 따라 나눠진다.**
 
-![image-20220704171428793](images/2022-07-04-javaSpring_객체지향원리적용_IoC DI Containor/image-20220704171428793.png)
+![image-20220704171428793](images/2022-07-04-javaSpring_객체지향원리적용_IoC DI Container/image-20220704171428793.png)
 
 ## DI 의존관계 주입
 
