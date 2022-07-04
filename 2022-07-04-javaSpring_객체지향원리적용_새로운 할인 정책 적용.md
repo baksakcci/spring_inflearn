@@ -14,4 +14,4 @@
 
 만 수정해주면 된다.
 
-![image-20220704160759546](images/2022-07-04-javaSpring_객체지향원리적용_새로운 할인 정책 적용/image-20220704160759546.png)
+![image-20220704160759546](https://user-images.githubusercontent.com/105288887/177118711-ab003836-3428-4fac-8686-3d397eba9602.png)
