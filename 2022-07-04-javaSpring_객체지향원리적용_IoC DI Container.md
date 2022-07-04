@@ -12,13 +12,14 @@ Inversion of Control
 
 `ServiceImpl`는 어떤 구현 객체가 실행되는지 모른다. 그저 묵묵히 실행만 할 뿐.
 
-![image-20220704171415712](images/2022-07-04-javaSpring_객체지향원리적용_IoC DI Container/image-20220704171415712.png)
+![image-20220704171415712](https://user-images.githubusercontent.com/105288887/177117976-840bfca2-b912-4eed-8d24-75ffc4bb0a51.png)
+
 
 ## 프레임워크와 라이브러리의 차이
 
 **제어의 주체가 누구인가에 따라 나눠진다.**
 
-![image-20220704171428793](images/2022-07-04-javaSpring_객체지향원리적용_IoC DI Container/image-20220704171428793.png)
+![image-20220704171428793](https://user-images.githubusercontent.com/105288887/177117962-816d939e-4506-4b83-be11-cfe15d31b1fc.png)
 
 ## DI 의존관계 주입
 
@@ -38,7 +39,7 @@ Dependency Injection
 
 App 실행 시점(runtime)에서 실제 구현 객체를 생성하고 클라이언트에 전달에서(`AppConfig`의 역할) 클라이언트와 서버의 실제 의존관계가 연결되는 것(실제로 연결 되었음을 의미)을 **의존관계 주입**이라고 한다.
 
-![image-20220704172436871](images/2022-07-04-javaSpring_객체지향원리적용_IoC DI Container/image-20220704172436871.png)
+![image-20220704172436871](https://user-images.githubusercontent.com/105288887/177117973-29a67fcb-b5be-499e-8d0f-1718cc36e4dc.png)
 
 객체 인스턴스를 생성하고 참조값을 전달해서 연결.
 

@@ -1,6 +1,6 @@
 ## IntelliJ에서 단축키가 어떤 것이 있는지 검색하는 기능이다
 
-![image-20220704164818593](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704164818593.png)
+![image-20220704164818593](https://user-images.githubusercontent.com/105288887/177117212-6c8786fc-8d37-4855-a19f-dfb3e1938be1.png)
 
 Setting에 들어가서 Keymap에 들어간 후 원하는 기능을 검색하면 오른쪽에 단축키 세팅이 나온다.
 
@@ -8,7 +8,7 @@ Setting에 들어가서 Keymap에 들어간 후 원하는 기능을 검색하면
 
 Alt+Insert 누르면 Generate 창이 나온다.
 
-![image-20220704164841248](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704164841248.png)
+![image-20220704164841248](https://user-images.githubusercontent.com/105288887/177117223-b4b395cb-4673-4967-ae22-a7ac3b72df0a.png)
 
 - getter/setter : get,set 자동구현
 - constructor : 생성자 자동구현
@@ -57,12 +57,12 @@ Ctrl + Alt + M
 
 다이어그램을 보고자 하는 파일이나 패키지에 마우스 오른쪽 클릭 후 Show Diagram 클릭
 
-![image-20220704165249826](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704165249826.png)
+![image-20220704165236650](https://user-images.githubusercontent.com/105288887/177117232-a3fa95c7-a5b8-43f0-b0fa-522e04d05de0.png)
 
 그 후 자세한 디펜던시를 보고 싶을 땐 다시한번 오른쪽 클릭 후 Show Dependencies 클릭
 
-![image-20220704165344234](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704165344234.png)
+![image-20220704165249826](https://user-images.githubusercontent.com/105288887/177117240-62b476da-27cb-4394-aa2f-c1be0791edb6.png)
 
 이런식으로 볼 수 있게 된다.
 
-![image-20220704165236650](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704165236650.png)
+![image-20220704165344234](https://user-images.githubusercontent.com/105288887/177117246-cbf19cdd-44d9-4f3a-abe8-3bc95a7fceed.png)
