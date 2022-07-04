@@ -1,6 +1,6 @@
 ## IntelliJ에서 단축키가 어떤 것이 있는지 검색하는 기능이다
 
-![image-20220629164432491](images/2022-06-29-javaSpring_intelliJIDEA%EB%8B%A8%EC%B6%95%ED%82%A4/image-20220629164432491.png)
+![image-20220704164818593](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704164818593.png)
 
 Setting에 들어가서 Keymap에 들어간 후 원하는 기능을 검색하면 오른쪽에 단축키 세팅이 나온다.
 
@@ -8,7 +8,7 @@ Setting에 들어가서 Keymap에 들어간 후 원하는 기능을 검색하면
 
 Alt+Insert 누르면 Generate 창이 나온다.
 
-![image-20220629165352797](images/2022-06-29-javaSpring_intelliJIDEA%EB%8B%A8%EC%B6%95%ED%82%A4/image-20220629165352797.png)
+![image-20220704164841248](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704164841248.png)
 
 - getter/setter : get,set 자동구현
 - constructor : 생성자 자동구현
@@ -52,3 +52,17 @@ Ctrl + Alt + M
 ![image-20220702191236197](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220702191236197.png)
 
 리턴 타입과 이름을 정의한 후 리팩터링 하면 관련 메서드들 **한꺼번에 다 변경**
+
+## 클래스 의존성 다이어그램 보는법
+
+다이어그램을 보고자 하는 파일이나 패키지에 마우스 오른쪽 클릭 후 Show Diagram 클릭
+
+![image-20220704165249826](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704165249826.png)
+
+그 후 자세한 디펜던시를 보고 싶을 땐 다시한번 오른쪽 클릭 후 Show Dependencies 클릭
+
+![image-20220704165344234](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704165344234.png)
+
+이런식으로 볼 수 있게 된다.
+
+![image-20220704165236650](images/2022-06-29-javaSpring_intelliJ IDEA 단축키/image-20220704165236650.png)
