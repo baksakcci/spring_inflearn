@@ -53,7 +53,7 @@ void findAllBean() {
 
 꺼낸 빈 객체와 빈 이름을 출력하자
 
-![image-20220706180441105](images/2022-07-06-javaSpring_스프링_스프링 빈 조회/image-20220706180441105.png)
+![image-20220706180441105](https://user-images.githubusercontent.com/105288887/177519731-b474fee2-9f32-4810-80e0-60b51e53785a.png)
 
 이렇게 이름과 객체가 출력되는 것을 알 수 있다.
 
@@ -98,7 +98,7 @@ beanDefinition.getRole() == BeanDefinition.ROLE_APPLICATION
 
 이후에 위와 똑같이 bean 객체, bean 이름을 가져와서 프린트 한다.
 
-![image-20220706182218871](images/2022-07-06-javaSpring_스프링_스프링 빈 조회/image-20220706182218871.png)
+![image-20220706182218871](https://user-images.githubusercontent.com/105288887/177519761-efa48d69-2547-42f4-bf97-7a5dcbba0332.png)
 
 잘 출력되는 것을 알 수 있다.
 
