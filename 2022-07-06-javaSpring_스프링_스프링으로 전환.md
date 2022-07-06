@@ -39,7 +39,7 @@ memberService memberService = applicationContext.getBean("memberService",memberS
 
 `AppConfig` 대신에 `ApplicationContext`라는 스프링 컨테이너가 객체생성과 주입을 대신해준다.
 
-![image-20220706132708111](images/2022-07-06-javaSpring_스프링_스프링으로 전환/image-20220706132708111.png)
+![image-20220706132708111](https://user-images.githubusercontent.com/105288887/177519277-16f06869-b6ec-4194-9fcd-5e6358f82465.png)
 
 스프링 컨테이너의 등장으로 앞으로 어떻게 사용하고 어떠한 장점이 있는지 알아볼 예정이다.
 
