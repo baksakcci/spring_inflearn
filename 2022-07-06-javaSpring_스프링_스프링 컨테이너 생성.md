@@ -21,13 +21,13 @@ ApplicationContext applicationContext = new AnnotationConfigApplicationContext(A
 
 ## 스프링 컨테이너를 생성한다.
 
-![image-20220706170435963](images/2022-07-06-javaSpring_스프링_스프링 컨테이너 생성/image-20220706170435963.png)
+![image-20220706170435963](https://user-images.githubusercontent.com/105288887/177519460-cb765b0d-dad3-4467-b60c-6994f77686ae.png)
 
 `AppConfig.class`를 구성정보로 지정하여 스프링 컨테이너를 생성한다.
 
 ## 스프링 빈을 등록한다.
 
-![image-20220706170445433](images/2022-07-06-javaSpring_스프링_스프링 컨테이너 생성/image-20220706170445433.png)
+![image-20220706170445433](https://user-images.githubusercontent.com/105288887/177519488-40de2812-7a85-4ef1-9c11-87c486e01910.png)
 
 컨테이너는 파라미터로 넘어온 `AppConfig.class`설정 클래스 정보를 사용해서 스프링 빈 저장소에 빈을 등록한다.
 
@@ -35,7 +35,7 @@ ApplicationContext applicationContext = new AnnotationConfigApplicationContext(A
 
 ## 스프링 빈의 의존관계를 설정한다.
 
-![image-20220706170458932](images/2022-07-06-javaSpring_스프링_스프링 컨테이너 생성/image-20220706170458932.png)
+![image-20220706170458932](https://user-images.githubusercontent.com/105288887/177519505-ab9a9ee5-df4c-4f62-8c15-c1a298f5b85a.png)
 
 설정 클래스 정보를 참고해서 의존관계를 주입한다.
 
