@@ -20,6 +20,7 @@ Alt + Enter 누르면 어떻게 해결할 지 나온다.
 
 * 인터페이스 상속받을 때 구현 메서드들 적을 때 유용
 * 자동 import
+* **변수 자동 만들어주기**
 
 ## 코드 빌드, 실행 단축키
 
@@ -66,3 +67,7 @@ Ctrl + Alt + M
 이런식으로 볼 수 있게 된다.
 
 ![image-20220704165344234](https://user-images.githubusercontent.com/105288887/177117246-cbf19cdd-44d9-4f3a-abe8-3bc95a7fceed.png)
+
+## for문 자동으로 만들어주기
+
+`iter`치고 tab 누르면 자동으로 만들어진다.
