@@ -102,4 +102,77 @@ beanDefinition.getRole() == BeanDefinition.ROLE_APPLICATION
 
 잘 출력되는 것을 알 수 있다.
 
-## 
+## getBean()을 통해 빈을 조회해보자
+
+`getBean('빈 이름', '빈 타입')`으로 이름과 타입을 매개변수로 입력해서 조회할 수 있고
+
+`getBean('타입')`타입 만으로 조회할 수 있다.
+
+```java
+@Test
+@DisplayName("빈 이름, 타입을 이용해 조회")
+void findBeanByName() {
+    memberService memberService = ac.getBean("memberService", memberService.class);
+    System.out.println("memberService = " + memberService +
+            "\nmemberService.getClass = " + memberService.getClass());
+    assertThat(memberService).isInstanceOf(memberServiceImpl.class);
+}
+```
+
+우선 위에 `AnnotationConfigApplicationContext` 컨테이너를 만들어주고 시작하자.
+
+`jUnit`을 이용해서 테스트 진행.
+
+그 후 이전에 `AppConfig`에 구현했던 `memberSerivce()`를 컨테이너에서 가져와서 `getBean()`을 통해 조회했다.
+
+그 후 컨테이너에 저장된 객체와 우리가 만들었던 `memberServiceImpl.class`가 같은지 비교하였다.
+
+![image-20220707152034563](images/2022-07-06-javaSpring_스프링_스프링 빈 조회/image-20220707152034563.png)
+
+```java
+memberService memberService = ac.getBean(memberService.class);
+```
+
+타입 만으로 빈을 조회해도 결과는 똑같다.
+
+```java
+memberServiceImpl memberService = ac.getBean(memberServiceImpl.class);
+```
+
+인터페이스 말고 **구현체**를 타입으로 가져와도 똑같이 작동한다.
+
+그러나, 역할과 구현으로 나눠지지 않고 구현체를 직접 가져오는 코드가 되기 때문에 좋진 않다.
+
+## getBean()에서 없는 이름을 적고 테스트 해보자
+
+```java
+@Test
+@DisplayName("다른 빈 이름으로 조회했을 때")
+void findBeanByNameX() {
+    memberService memberService = ac.getBean("xxxxx", memberService.class);
+    assertThat(memberService).isInstanceOf(memberServiceImpl.class);
+}
+```
+
+다른 이름으로 조회했을 때 오류가 던져진다.
+
+`org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'xxxxx' available`
+
+반대로 이 테스트를 오류없게 나오기 위한 코드를 구현해보자
+
+```java
+@Test
+@DisplayName("다른 빈 이름으로 조회했을 때")
+void findBeanByNameX() {
+    assertThrows(NoSuchBeanDefinitionException.class,
+            () -> ac.getBean("xxxxx", memberService.class));
+}
+```
+
+여기서 `assertThrows()` 메서드는 `assertj`에서 `import`한게 아닌,
+
+`junit`에서 `import`한 메서드이다.
+
+첫번째 매개변수인 `NoSuchBeanDefinitionException.class` 오류 클래스가
+
+람다 함수인 `()`의 결과와 똑같다면 제대로 실행 될 것이다.

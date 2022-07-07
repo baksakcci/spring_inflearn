@@ -16,7 +16,7 @@ Alt+Insert 누르면 Generate 창이 나온다.
 
 ## 코드에 오류 발생했을 때 해결 단축키
 
-Alt + Enter 누르면 어떻게 해결할 지 나온다.
+`Alt` + `Enter` 누르면 어떻게 해결할 지 나온다.
 
 * 인터페이스 상속받을 때 구현 메서드들 적을 때 유용
 * 자동 import
@@ -71,3 +71,13 @@ Ctrl + Alt + M
 ## for문 자동으로 만들어주기
 
 `iter`치고 tab 누르면 자동으로 만들어진다.
+
+## 코드 중간에 커서 다음칸으로 바로 옮기기
+
+`ctrl` + `shift` + `enter`
+
+## static import
+
+라이브러리에서 끌어서 사용하는 메서드가 **이름이 너무 길다면**
+
+`Alt` + `Enter`에서 `static`으로 `import` 해주면 된다.

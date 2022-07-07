@@ -33,6 +33,21 @@ ApplicationContext applicationContext = new AnnotationConfigApplicationContext(A
 
 **빈 이름은 항상 다른 이름을 부여해야 한다.**
 
+빈은 이름과 실제 구현 객체로 저장된다.
+
+```java
+@Configuration
+public class AppConfig {
+    @Bean
+    public memberService memberService() {
+        return new memberServiceImpl(MemberRepository());
+    }
+```
+
+예를들어, `memberService()` 메서드를 빈으로 지정해서 저장했다면,
+
+이름은 `memberService`로 저장되고, 객체는 실제 리턴값인 `memberServiceImpl`가 된다.
+
 ## 스프링 빈의 의존관계를 설정한다.
 
 ![image-20220706170458932](https://user-images.githubusercontent.com/105288887/177519505-ab9a9ee5-df4c-4f62-8c15-c1a298f5b85a.png)
