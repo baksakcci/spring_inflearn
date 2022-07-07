@@ -153,7 +153,7 @@ void findBeanByParentTypeAll() {
 
 ## 부모 전체를 Object 클래스 타입으로 조회해보자
 
-![image-20220707174646484](images/2022-07-07-javaSpring_스프링_스프링 빈 조회2.md/image-20220707174646484.png)
+![image-20220707174646484](https://user-images.githubusercontent.com/105288887/177735102-000db1a4-5348-4540-ad86-90925376c0b1.png)
 
 모든 객체의 최상위 클래스인 `Object` 타입으로 조회해보자
 
