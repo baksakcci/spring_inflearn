@@ -127,7 +127,7 @@ void findBeanByName() {
 
 그 후 컨테이너에 저장된 객체와 우리가 만들었던 `memberServiceImpl.class`가 같은지 비교하였다.
 
-![image-20220707152034563](images/2022-07-06-javaSpring_스프링_스프링 빈 조회/image-20220707152034563.png)
+![image-20220707152034563](https://user-images.githubusercontent.com/105288887/177734875-be1fd399-4474-46fc-925b-974a3af372a7.png)
 
 ```java
 memberService memberService = ac.getBean(memberService.class);
