@@ -12,6 +12,7 @@ https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%
 - `spring bean`
 - `Singleton Pattern`
 - `container`
+- ...공부하면서 추가될 예정
 
 이외에 `intelliJ IDEA` 관련 조작 꿀팁이 있다.
 
