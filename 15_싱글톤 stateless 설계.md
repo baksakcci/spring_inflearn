@@ -66,7 +66,7 @@ name = userAprice = 20000
 price = 20000
 ```
 
-그림
+![image](https://user-images.githubusercontent.com/105288887/179389956-e5eba375-f63f-4de1-a270-187bc41725ea.png)
 
 그림과 같이 `threadA`에서 10000원이란 값이 나와야 하는데 `stateful`하게 설계한 탓에 20000원이란 잘못된 값이 나오게 된 것이다.
 
