@@ -60,7 +60,7 @@ public class ConfigurationSingletonTest {
     }
 }
 ```
-그림
+![image](https://user-images.githubusercontent.com/105288887/179390010-edee4396-fe74-4ed5-a755-2297d0ff5760.png)
 
 위 코드와 그림을 보면 이해하기 쉽다.
 
@@ -134,7 +134,7 @@ bean = hello.core.AppConfig$$EnhancerBySpringCGLIB$$250bb178@55562aa9
 
 **이는 바로 싱글톤을 지키기 위해서 만들어진 객체이다.**
 
-[그림]
+![image](https://user-images.githubusercontent.com/105288887/179390016-89f5e4e2-47ea-490b-950d-af566fc1ae8c.png)
 
 그림과 같이 CGLIB라는 클래스 바이트코드를 조작하는 라이브러리를 사용해서 스프링이 직접 싱글톤을 보장해주는 객체로 변신하여 만들어준 것이다.
 
