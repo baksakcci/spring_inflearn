@@ -1,0 +1,64 @@
+## 컴포넌트 스캔이란?
+설정 정보가 없어도 자동으로 스프링 빈을 등록하는 기능
+
+`@Component` 어노테이션이 붙은 클래스를 스캔해서 스프링 빈으로 등록한다.
+
+## 어떤 이점이 있나요?
+- 자바 코드 `@Bean`, XML의 `<bean>`등의 설정정보가 필요없게 됨으로써 반복을 줄이고 누락 문제를 방지한다.
+
+그림
+
+## 어떻게 사용하나요?
+1. 설정 정보 클래스를 `@ComponentScan`을 써서 새로 만든다.
+
+AutoAppConfig.java
+```java
+@ComponentScan(
+        excludeFilters = @Filter(type = FilterType.ANNOTATION, classes = Configuration.class)
+)
+public class AutoAppConfig {
+}
+```
+2. `@Component`를 써서 `@ComponentScan`의 스캔 대상이 되도록 하자.
+
+그림
+
+3. 생성자에 `@Autowired`를 지정한다. 스프링 컨테이너가 자동으로 해당 스프링 빈을 찾아서 주입한다. 찾는 과정이 `getBean(MemberRepository.class)`와 동일하다고 이해하자.
+```java
+@Component
+public class memoryMemberRepository implements memberRepository
+
+@Component
+public class RateDiscountPolicy implements DiscountPolicy
+
+@Component
+public class memberServiceImpl implements memberService
+    @Autowired
+    public memberServiceImpl(memberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
+
+@Component
+public class OrderServiceImpl implements OrderService
+    @Autowired
+    public OrderServiceImpl(memberRepository memberRepository, DiscountPolicy discountPolicy) {
+        this.memberRepository = memberRepository;
+        this.discountPolicy = discountPolicy;
+    }
+```
+
+그림
+
+4. 잘 작동하는지 test코드를 작성해보자
+```java
+class AutoAppConfigTest {
+    @Test
+    void BasicScan() {
+        AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AutoAppConfig.class);
+
+        memberService memberService = ac.getBean((memberService.class));
+        Assertions.assertThat(memberService).isInstanceOf(memberService.class);
+    }
+}
+```
+결과창을 보면 잘 만들어진 것을 알 수 있다.
