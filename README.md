@@ -16,6 +16,8 @@
 - `spring bean`
 - `Singleton Pattern`
 - `container`
+- `component`
+- `autowired`
 - ...공부하면서 추가될 예정
 
 이외에 `intelliJ IDEA` 관련 조작 꿀팁이 있다.
